@@ -1,0 +1,203 @@
+:root{
+    --bg-nav-1-col: aqua;
+    --nav-1-col: black;
+
+    --bg-nav-2-col: purple;
+      --nav-2-col: rgba(255, 255, 255, 0.774);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}body{
+    background-color: gray;
+    height: 100%;
+    font-family: sans-serif;
+}
+section{
+    min-height: 36.8vh;
+}
+/* Nav bar setting */
+/* start */
+header {
+    position: sticky; 
+     top: 0;
+     background-color: var(--bg-nav-2-col);
+     padding: 4px 0;
+     z-index: 101;
+}
+.nav ul{
+display: flex;
+margin-top: 10px;
+list-style-type: none;
+position: relative;
+right: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: var(--nav-2-col);
+}
+/* end */
+
+/* card */
+/* start */
+
+section.card {
+    width: 21vw;
+    height: 70vh;
+    margin: 20px;
+    /* margin-top: 3vw;
+    margin-right: 0px; */
+    border-radius: 15px;
+    background-color: azure;
+    display: inline-block;
+}
+
+.img img {
+    width: 20vw;
+    border-radius: 15px;
+    margin: 6px 1px 0 8px;
+}
+
+.capsule {
+    margin: 10px 0 0 20px;
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(65, 64, 64);
+
+}
+
+.capsule span {
+    margin: 4px;
+    border-radius: 40px;
+    background-color: hsla(215, 92%, 75%, 0.211);
+    padding: 2px 3px 2px 5px;
+
+}
+
+h2 {
+    margin: 20px;
+    margin-left: 15px;
+    margin-bottom: 9px;
+}
+
+.container p {
+    margin: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+
+    color: rgb(81, 72, 72);
+}
+/* end */
+
+.logo{
+    width: 50px;
+    position: fixed;
+    top: 86vh;
+    left: 95vw;
+    z-index: 1000;
+}
+/* giving detail to the card1 and card2 */
+/* start */
+section.card1{
+    position: relative;
+   left: 30vw;
+}
+section.card2{
+    position: relative;
+    /* using "bottom" to do positon of 2nd card sa same as 1st card  */
+    bottom: 22px; 
+    left: 28vw;
+    background: rgb(18, 18, 18);
+}
+/* some change in card2 */
+.card2 h2{
+    color: wheat;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.card2 p{
+    color:rgba(245, 245, 245, 0.595);
+}
+.card2 img{
+    margin-top: 7px;
+}
+.card2 .capsule span{
+    color: white;
+   padding-right: 6px;
+   background-color: rgba(255, 111, 0, 0.27);
+}
+/* end */
+
+/* footer */
+/* start */
+footer {
+    position: relative;
+    top: 50vh;
+}
+div.halogram {
+    background: #0a1535;
+    color: rgba(128, 128, 128, 0.649);
+    padding: 0 1px 0 10px;
+    width: 99.32vw;
+    position: relative;
+    right: 8px;
+    box-sizing: border-box;
+
+}
+
+.halogram svg {
+    position: relative;
+    z-index: 1000;
+    top: 17px;
+    left: 28px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.halogram h3 {
+    color: #f9f9f9;
+    position: relative;
+    bottom: 16px;
+    margin-left: 70px;
+    font-size: 18px;
+    font-weight: 200;
+    /* margin-top: 29px; */
+    /* margin-bottom: 35px; */
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 90px;
+    position: relative;
+    bottom: 10px;
+}
+
+ul li {
+    margin: 0 50px 0 0;
+    font-size: 18px;
+}
+
+ul li a {
+    margin: 5px;
+    margin-left: 0px;
+    margin-top: 13px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9bf;
+    font-size: 0.85em;
+    font-weight: 100;
+    margin-left: 3px;
+}
+
+foot {
+    display: block;
+    position: relative;
+    right: 8px;
+    padding: 12px 0px 12px 55px;
+    border: 2px solid #0a1535;
+    border-top: 2px solid gray;
+}
+/* end */
